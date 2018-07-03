@@ -116,7 +116,7 @@ sub pingone ($){
 
     my $interface = $target->{vars}{interface} || "wlan0"; #add a generic interface if none specified
     my $parameter = $target->{vars}{parameter} || "freq"; #generic parameter if none specified
-    my $query = "$self->{properties}{binary} dev $interface 2>&1";
+    my $query = "$self->{properties}{binary} dev $interface link 2>&1";
 
     my @params;
 
