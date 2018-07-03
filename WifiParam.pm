@@ -155,7 +155,7 @@ sub pingone ($){
     }
     
     
-    @times = ();
+    my @times = ();
     for(my $run = 0; $run < $self->pings($target); $run++) {
         push @times, $params[$run];
     }
