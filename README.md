@@ -8,7 +8,7 @@ Installation:
  
  Configuration:
 ``` 
-+ WifiParams
++ WifiParam
 binary = /sbin/iw
 pings = 3
 step = 300
